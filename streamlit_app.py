@@ -507,6 +507,7 @@ def dashboard_page():
     st.header("📊 Dashboard")
     st.markdown("General system information and component status")
     
+    # Direct access to session state (no heavy operations)
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
@@ -592,8 +593,9 @@ def main():
         
         st.markdown("### ⚙️ Component Status")
         
-        vector_status = "✅ Built" if st.session_state.vector_db_built else "❌ Not Built"
-        graph_status = "✅ Built" if st.session_state.graph_db_built else "❌ Not Built"
+        # Fast access to session state (no heavy operations)
+        vector_status = "✅ Built" if st.session_state.get("vector_db_built", False) else "❌ Not Built"
+        graph_status = "✅ Built" if st.session_state.get("graph_db_built", False) else "❌ Not Built"
         
         st.markdown(f"- Vector RAG: {vector_status}")
         st.markdown(f"- Graph RAG: {graph_status}")
