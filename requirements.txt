@@ -1,0 +1,57 @@
+# Core dependencies
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# OpenAI and LangChain
+openai==1.6.1
+langchain==0.1.0
+langchain-openai==0.0.2
+langchain-community==0.0.10
+langchain-core==0.1.10
+
+# LangGraph for multi-agent systems
+langgraph==0.0.20
+
+# Vector stores and embeddings
+faiss-cpu==1.7.4
+tiktoken==0.5.2
+
+# Graph database
+neo4j==5.15.0
+
+# Web scraping and APIs
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# API Framework
+fastapi==0.109.0
+uvicorn[standard]==0.25.0
+
+# Data processing
+numpy==1.26.3
+pandas==2.1.4
+
+# Logging and monitoring
+loguru==0.7.2
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+httpx==0.26.0
+
+# Code quality
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
+isort==5.13.2
+pre-commit==3.6.0
+
+# Development
+ipython==8.18.1
+jupyter==1.0.0
+
+# Web Interface
+streamlit==1.29.0
