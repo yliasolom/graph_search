@@ -1,0 +1,57 @@
+🔍 RAG & Multi-Agent News Analysis System - Demo
+
+Production-ready system combining Vector RAG, Graph RAG, and Multi-Agent workflows for intelligent news analysis. Perfect for developers and AI enthusiasts.
+
+📋 System Overview:
+
+• Vector RAG: FAISS semantic search with OpenAI embeddings, building vector database from NewsAPI, natural language queries, top-k document retrieval, context-aware answers
+
+• Graph RAG: Neo4j knowledge graphs, knowledge graph from sports teams, lexical graph from news, keyword extraction, complex relationship queries, Cypher optimization
+
+• Multi-Agent: LangGraph workflow with Research Agent (query optimization, news fetching), Analysis Agent (sentiment, importance 1-10, key facts), Summary Agent (comprehensive reports), sequential pipeline, error handling
+
+• Streamlit UI: Modern dashboard, interactive queries, real-time status, progress visualization, expandable results, responsive design
+
+• REST API: FastAPI with OpenAPI docs, Vector/Graph RAG endpoints, multi-agent analysis, health checks, request validation
+
+🛠️ Tech Stack:
+LangChain & LangGraph, OpenAI GPT, FAISS, Neo4j, FastAPI, Streamlit, NewsAPI, Python 3.8+
+
+📚 GitHub: https://github.com/yliasolom/graph_search
+
+Includes: source code, setup guide, API docs, examples, tests, environment templates
+
+💡 Features:
+✅ Semantic search with vector embeddings
+✅ Graph retrieval with Cypher queries
+✅ Sentiment analysis (positive/negative/neutral)
+✅ Importance scoring (1-10 scale)
+✅ Key facts extraction
+✅ Multi-agent automated workflow
+✅ Error handling and recovery
+✅ REST API access
+✅ Web dashboard
+✅ Context-aware document retrieval
+
+🎯 Use Cases:
+News monitoring, research assistance, content summarization, sentiment tracking, knowledge graph queries, semantic search, multi-source analysis, automated reporting
+
+📖 How It Works:
+
+Vector RAG: NewsAPI → Text chunks → OpenAI embeddings → FAISS storage → Query embeddings → Top-k retrieval → LLM answers
+
+Graph RAG: Structured data → Knowledge graph → News lexical graph → Keyword extraction → Cypher queries → LLM answers
+
+Multi-Agent: Topic → Research Agent (fetch news) → Content extraction → Analysis Agent (sentiment, importance, facts) → Summary Agent (report) → Results
+
+🚀 Getting Started:
+Easy setup. GitHub provides installation, configuration, API docs, Python examples, Streamlit guide, troubleshooting.
+
+💻 Customization:
+Modular codebase: add agents, extend graphs, customize search, integrate sources, modify UI, add endpoints.
+
+🔐 Requirements:
+OpenAI API Key, NewsAPI Key, Neo4j Database, Python environment
+
+#RAG #MultiAgent #LangGraph #Neo4j #OpenAI #MachineLearning #AI #DataScience #Python #FastAPI #Streamlit #VectorSearch #GraphDatabase #NewsAnalysis #SentimentAnalysis #LLM #RetrievalAugmentedGeneration
+

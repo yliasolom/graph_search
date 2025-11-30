@@ -2,10 +2,9 @@
 
 A system for retrieving and analyzing news articles using RAG (Retrieval-Augmented Generation) and multi-agent workflows. The system supports two RAG approaches: vector-based semantic search and graph-based knowledge retrieval. It also includes a multi-agent system that automatically collects, analyzes, and summarizes news on any topic.
 
-<!-- 
-Demo GIF/Video - uncomment and add your file:
-![Demo](assets/demo.gif)
--->
+## Demo Video
+
+[![RAG & Multi-Agent News Analysis System Demo](https://img.youtube.com/vi/vanRxPaYTW4/0.jpg)](https://www.youtube.com/watch?v=vanRxPaYTW4)
 
 ## Features
 
