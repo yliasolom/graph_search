@@ -28,6 +28,7 @@ lxml==4.9.3
 # API Framework
 fastapi==0.109.0
 uvicorn[standard]==0.25.0
+mangum==0.17.0
 
 # Data processing
 numpy==1.26.3
